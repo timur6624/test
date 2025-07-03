@@ -106,3 +106,4 @@
 /Users/timurmamatkulov/RiderProjects/TestWebAp/TestWebAp/obj/Debug/net8.0/TestWebAp.csproj.AssemblyReference.cache
 /Users/timurmamatkulov/RiderProjects/TestWebAp/TestWebAp/obj/Debug/net8.0/TestWebAp.MvcApplicationPartsAssemblyInfo.cs
 /Users/timurmamatkulov/RiderProjects/TestWebAp/TestWebAp/obj/Debug/net8.0/TestWebAp.csproj.Up2Date
+/Users/timurmamatkulov/RiderProjects/TestWebAp/TestWebAp/obj/Debug/net8.0/TestWebAp.sourcelink.json
