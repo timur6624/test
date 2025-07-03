@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// --- 1. Регистрация сервисов ---
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -18,7 +18,7 @@ builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 
 var app = builder.Build();
 
-// --- 2. Настройка конвейера обработки запросов ---
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -27,11 +27,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseDefaultFiles(); // Для index.html
-app.UseStaticFiles();  // Для css, js и других файлов
+app.UseDefaultFiles(); 
+app.UseStaticFiles();  
 
 app.UseAuthorization();
 
-app.MapControllers(); // Для нашего API
+app.MapControllers(); 
 
 app.Run();
