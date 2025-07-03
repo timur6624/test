@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "V3cExy7y2Y8maggUXuh2OIC3sBJWTcH/sFqYnY2C0zI=",
+  "Source": "TestWebAp",
+  "BasePath": "_content/TestWebAp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TestWebAp/wwwroot",
+      "Source": "TestWebAp",
+      "ContentRoot": "/Users/timurmamatkulov/RiderProjects/TestWebAp/TestWebAp/wwwroot/",
+      "BasePath": "_content/TestWebAp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/timurmamatkulov/RiderProjects/TestWebAp/TestWebAp/wwwroot/css/view.css",
+      "SourceId": "TestWebAp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timurmamatkulov/RiderProjects/TestWebAp/TestWebAp/wwwroot/",
+      "BasePath": "_content/TestWebAp",
+      "RelativePath": "css/view.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/view.css"
+    },
+    {
+      "Identity": "/Users/timurmamatkulov/RiderProjects/TestWebAp/TestWebAp/wwwroot/index.html",
+      "SourceId": "TestWebAp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timurmamatkulov/RiderProjects/TestWebAp/TestWebAp/wwwroot/",
+      "BasePath": "_content/TestWebAp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/timurmamatkulov/RiderProjects/TestWebAp/TestWebAp/wwwroot/js/Logic.js",
+      "SourceId": "TestWebAp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timurmamatkulov/RiderProjects/TestWebAp/TestWebAp/wwwroot/",
+      "BasePath": "_content/TestWebAp",
+      "RelativePath": "js/Logic.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/Logic.js"
+    }
+  ]
+}

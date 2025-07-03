@@ -1,0 +1,21 @@
+thead th[data-sortby] {
+    cursor: pointer;
+    user-select: none; 
+}
+
+
+.sort-icon::after {
+    content: ' ↕️'; 
+    font-size: 0.8em;
+    color: #999;
+}
+
+thead th.sort-asc .sort-icon::after {
+    content: ' ▲'; 
+    color: #333;
+}
+
+thead th.sort-desc .sort-icon::after {
+    content: ' ▼'; 
+    color: #333;
+}
