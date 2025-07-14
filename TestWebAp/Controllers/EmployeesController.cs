@@ -51,7 +51,7 @@ public class EmployeesController : ControllerBase
         return CreatedAtAction(nameof(GetEmployee), new { id = createdEmployee.Id }, createdEmployee);
     }
 
-    // PUT: api/employees/5
+    
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateEmployee(int id, [FromBody] EmployeeDto employeeDto)
     {
